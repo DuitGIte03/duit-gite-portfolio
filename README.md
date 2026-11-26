@@ -1,5 +1,7 @@
 # Duit Gite — Accounting & Finance Portfolio
 
+Original portfolio template and design inspiration: Sushmita Dasari.
+
 A personal portfolio showcasing my experience, education, skills, certifications, and projects in Accounting and Finance.
 
 The website features an interactive design with dark and light themes, animated elements, and a responsive layout.
