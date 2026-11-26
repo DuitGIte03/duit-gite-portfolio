@@ -1,54 +1,159 @@
-# Sushmita Dasari — Portfolio
+# Duit Gite — Accounting & Finance Portfolio
 
-An interactive personal portfolio with two complete looks, dark and light, switched by pulling a hanging cord in the top-right corner.
+A personal portfolio showcasing my experience, education, skills, certifications, and projects in Accounting and Finance.
 
-Built with React, TypeScript, Vite, Tailwind CSS, GSAP, Framer Motion and Lenis.
+The website features an interactive design with dark and light themes, animated elements, and a responsive layout.
 
-## Run it
+**Live Website:** https://duitgite.in
 
-You need [Node.js](https://nodejs.org) 18 or newer.
+## About Me
+
+I'm Duit Gite, an Accounting and Finance professional with an M.Com in Accounting (CGPA 9.30/10).
+
+Currently working as a Junior Accountant at SMARTe Daas Pvt. Ltd., with practical experience in:
+
+- Accounting Entries and Bookkeeping
+- GST and TDS Compliance
+- Bank Reconciliation
+- Vendor Payments
+- Accounts Payable and Receivable
+- Excel Reporting and Financial Data Management
+- Tally Prime
+
+I'm also interested in AI tools, prompt engineering, and workflow automation to improve accounting and business processes.
+
+## Education
+
+| Qualification | Institution | Year | Result |
+|---|---|---|---|
+| M.Com (Accounting) | Guru Nanak College | 2026 | 9.30 CGPA |
+| B.Com | — | 2024 | 6.76 CGPA |
+
+## Skills
+
+- **Accounting:** Journal Entries, Ledger Management, Bank Reconciliation, Accounts Payable and Receivable
+- **Taxation:** GST, TDS, GST Returns, TDS Returns
+- **Financial Reporting:** MIS Reporting, Financial Statements, Expense Analysis
+- **Tools:** Tally Prime, Microsoft Excel, MS Office
+- **AI & Automation:** Generative AI, Prompt Engineering, n8n, Workflow Automation
+
+## Experience
+
+**Junior Accountant — SMARTe Daas Pvt. Ltd.**
+
+February 2026 – Present
+
+- Handle day-to-day accounting entries and bookkeeping.
+- Assist with GST and TDS return preparation and compliance.
+- Perform bank reconciliations.
+- Support vendor payments and accounting operations.
+- Prepare reports using Microsoft Excel.
+- Work with Tally Prime for accounting activities.
+
+## Featured Projects
+
+- CMS Payment Automation — Automating weekly payment-sheet preparation using n8n and Google Sheets.
+- Excel Dashboard — Financial data reporting and visualization.
+- GSTR-2B Reconciliation — GST reconciliation workflow.
+
+## Certifications
+
+- Advanced Office Automation & Financial Accounting (Tally Prime)
+- Certified No-Code Finance Automation Specialist
+- Foundations in AI Productivity and Agentic Systems
+- AI Tools & Claude Workshop
+- MS-CIT Certification
+- Invest4Edu Internship Certification
+
+## Technology Stack
+
+This portfolio is built using:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- GSAP
+- Framer Motion
+- Lenis
+
+## Run Locally
+
+You need Node.js 18 or newer.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DuitGite03/duit-gite-portfolio.git
+```
+
+Navigate into the project:
+
+```bash
+cd duit-gite-portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Then open the address it prints (usually http://localhost:5173).
+Open the local address printed in your terminal (usually http://localhost:5173).
 
-## Build for hosting
+## Build for Production
+
+Run:
 
 ```bash
 npm run build
 ```
 
-The finished site is written to `dist/`. Upload the contents of `dist/` to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages). No server code is needed.
+The production-ready website is generated in the `dist/` directory.
 
-## Edit the content
+## Edit Portfolio Content
 
-Every fact on the site lives in **`src/data/portfolio.ts`**: name, links, roles, stats, education, skills, projects, experience, recognition and certifications. Change it there and the whole site follows.
+Most portfolio information is maintained in:
 
-Other things you may want to change:
+`src/data/portfolio.ts`
+
+You can update your profile, roles, skills, education, projects, experience, and certifications there.
+
+### Other Important Files
 
 | What | Where |
 |---|---|
-| Résumé PDF (download buttons) | `public/assets/Sushmita_Dasari_Resume.pdf` |
-| Theme colours (dark and light) | top of `src/index.css` |
-| Hero video | `public/assets/hero-walk.webm` (Chrome, Firefox, Edge) and `hero-walk.mov` (Safari) |
-| Spinning figure in Skills | `public/assets/spin-sprite.webp` (80 frames, 10 × 8 grid, 300 × 830 each) |
+| Résumé PDF | `public/assets/Duit_Gite_Resume.pdf` |
+| Profile portrait | `public/assets/Confident Portrait in Black and White.png` |
+| Full-body portrait | `public/assets/duit-full-body-portrait.png` |
+| Theme colours | `src/index.css` |
+| Hero section | `src/components/Hero.tsx` |
+| Hero image/video component | `src/components/HeroVideo.tsx` |
+| Skills section | `src/components/Expertise.tsx` |
+| Experience section | `src/components/Experience.tsx` |
+| Contact section | `src/components/Contact.tsx` |
 
-## How the site is put together
+## Deployment
 
-| File | What it does |
-|---|---|
-| `src/components/PullCord.tsx` | The pull cord that switches dark / light mode |
-| `src/lib/theme.ts` | Theme switching, saved between visits, with the circular reveal |
-| `src/components/Hero.tsx`, `HeroVideo.tsx` | Hero with the giant name and the walking video |
-| `src/components/Expertise.tsx`, `fx/TechOrbit.tsx` | Skills, with the figure that turns as you scroll inside three skill orbits |
-| `src/components/Projects.tsx`, `ProjectVisual.tsx` | Project cards and case-study overlays |
-| `src/components/Experience.tsx` | Timeline, recognition and certifications |
-| `src/components/Contact.tsx` | Contact links and footer |
+The website is deployed using Vercel and connected to the custom domain:
 
-## Notes
+**https://duitgite.in**
 
-- The hero and Skills videos use transparent backgrounds, so they sit directly on the page in both themes.
-- Visitors who have "reduce motion" turned on get still images and no auto-animation; the cord still works.
+The GitHub repository is connected to Vercel for deployment updates.
+
+## Contact
+
+- **Name:** Duit Gite
+- **Email:** duitgite29@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/duit-gite-a01597343/
+- **Portfolio:** https://duitgite.in
+
+---
+
+© 2026 Duit Gite. All Rights Reserved.
